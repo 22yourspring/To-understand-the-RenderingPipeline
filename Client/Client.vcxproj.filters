@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{0f3b1c6a-9b2d-4ff3-b9e9-3a5d37c8d060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{8d4c7f9a-c1cc-4e21-a9dd-c101249bfb6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Default\Precompiled Header">
+      <UniqueIdentifier>{b7077a9b-0a50-4239-ac85-fe247e98452a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shader">
+      <UniqueIdentifier>{bfe02383-0c3a-41a6-a9c1-07c122986b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\01. Header">
+      <UniqueIdentifier>{70b1b2c8-05cc-47f4-97ce-07f64d278e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Manager">
+      <UniqueIdentifier>{0f41116b-b2a7-482b-9025-8e3920045c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11">
+      <UniqueIdentifier>{adc7d36a-47ca-4a2a-96d5-029fabd837a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\07. Output Merger">
+      <UniqueIdentifier>{7afcae08-f810-4660-823b-d7175f1af82c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\07. Output Merger\BlendState">
+      <UniqueIdentifier>{489b0b32-66dd-4f1d-b01d-b2d3afa7548c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\05. Shader">
+      <UniqueIdentifier>{360ed8c5-056f-41d0-a5bd-d2bc906f81f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\05. Shader\Shader">
+      <UniqueIdentifier>{0b5d215e-38f6-445e-a09c-3badbf6b53a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\05. Shader\Constant Buffer">
+      <UniqueIdentifier>{f8f3fe8a-1f3c-4a5f-9f09-22228c101674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\05. Shader\ResourceView">
+      <UniqueIdentifier>{1afa9da7-a0ca-4b7e-9b66-954ae374f363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\05. Shader\Sampler State">
+      <UniqueIdentifier>{49943b0a-a09e-459c-b83f-732c1a95f912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\06. Rasterizer">
+      <UniqueIdentifier>{ccc7ae2b-204b-4936-a0e8-8a1318dab4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\06. Rasterizer\Viewport">
+      <UniqueIdentifier>{c530205a-29d6-4fda-a953-c4b5a4b572d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\06. Rasterizer\Rasterizer State">
+      <UniqueIdentifier>{36cfc8ba-8d2f-42d5-857e-e1e239380b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\04. Input Assembler">
+      <UniqueIdentifier>{deea388d-f37c-4bac-8dde-9404c117d8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\04. Input Assembler\Index Buffer">
+      <UniqueIdentifier>{162e3895-dff3-4733-bc44-bf949a5f3fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\04. Input Assembler\Input Layout">
+      <UniqueIdentifier>{7f0880f6-5a66-4155-a088-2c28428498c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\04. Input Assembler\Vertex Buffer">
+      <UniqueIdentifier>{77cd032e-efea-4c44-999a-b6e6637dff0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\03. Vertex">
+      <UniqueIdentifier>{601888e2-389e-4d22-a9f1-b6dffb917f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\03. Vertex\Geometry">
+      <UniqueIdentifier>{92739670-06b2-4c00-a416-5dd6fb20c73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\03. Vertex\Vertex">
+      <UniqueIdentifier>{0818fad1-c9c1-46e9-8814-70a148286bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\02. Interface">
+      <UniqueIdentifier>{848872f9-1322-43ca-9715-0f5a78fcf19a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\01. Graphics">
+      <UniqueIdentifier>{550d77c4-90f5-4948-90ce-9a1d5e98f040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\08. Matrix Transformation">
+      <UniqueIdentifier>{caac16f5-c014-4a49-8ed9-39f3451789e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\08. Matrix Transformation\Camera">
+      <UniqueIdentifier>{6d1efbfc-afab-43b8-a5b0-fa791d4c66b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\03. Vertex\Geometry\Geometry Generator">
+      <UniqueIdentifier>{32b65a9b-4b8f-4ef8-adb4-88b7c201b0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\03. Vertex\Geometry\D3D11 Geometry">
+      <UniqueIdentifier>{6a641c85-77b1-49b2-bcf2-627e054b2eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. D3D11\09. Pipeline">
+      <UniqueIdentifier>{2e51598a-929b-4507-9a2f-0acb572acc50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Default\Precompiled Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Engine\02. D3D11\01. Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Engine\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Engine\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_Interface.h">
+      <Filter>Engine\02. D3D11\02. Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_Vertex.h">
+      <Filter>Engine\02. D3D11\03. Vertex\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_VertexBuffer.h">
+      <Filter>Engine\02. D3D11\04. Input Assembler\Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_IndexBuffer.h">
+      <Filter>Engine\02. D3D11\04. Input Assembler\Index Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_InputLayout.h">
+      <Filter>Engine\02. D3D11\04. Input Assembler\Input Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_ConstantBuffer.h">
+      <Filter>Engine\02. D3D11\05. Shader\Constant Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_Viewport.h">
+      <Filter>Engine\02. D3D11\06. Rasterizer\Viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_Shader.h">
+      <Filter>Engine\02. D3D11\05. Shader\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_RasterizerState.h">
+      <Filter>Engine\02. D3D11\06. Rasterizer\Rasterizer State</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_Texture.h">
+      <Filter>Engine\02. D3D11\05. Shader\ResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_SamplerState.h">
+      <Filter>Engine\02. D3D11\05. Shader\Sampler State</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_BlendState.h">
+      <Filter>Engine\02. D3D11\07. Output Merger\BlendState</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows.h">
+      <Filter>Engine\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_Camera.h">
+      <Filter>Engine\02. D3D11\08. Matrix Transformation\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_Geometry.h">
+      <Filter>Engine\02. D3D11\03. Vertex\Geometry\D3D11 Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_Geometry.inl">
+      <Filter>Engine\02. D3D11\03. Vertex\Geometry\D3D11 Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry_Generator.h">
+      <Filter>Engine\02. D3D11\03. Vertex\Geometry\Geometry Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11_Pipeline.h">
+      <Filter>Engine\02. D3D11\09. Pipeline</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default\Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Engine\02. D3D11\01. Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_Interface.cpp">
+      <Filter>Engine\02. D3D11\02. Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_Vertex.cpp">
+      <Filter>Engine\02. D3D11\03. Vertex\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_VertexBuffer.cpp">
+      <Filter>Engine\02. D3D11\04. Input Assembler\Vertex Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_IndexBuffer.cpp">
+      <Filter>Engine\02. D3D11\04. Input Assembler\Index Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_InputLayout.cpp">
+      <Filter>Engine\02. D3D11\04. Input Assembler\Input Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_ConstantBuffer.cpp">
+      <Filter>Engine\02. D3D11\05. Shader\Constant Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_Viewport.cpp">
+      <Filter>Engine\02. D3D11\06. Rasterizer\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_Shader.cpp">
+      <Filter>Engine\02. D3D11\05. Shader\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_RasterizerState.cpp">
+      <Filter>Engine\02. D3D11\06. Rasterizer\Rasterizer State</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_Texture.cpp">
+      <Filter>Engine\02. D3D11\05. Shader\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_SamplerState.cpp">
+      <Filter>Engine\02. D3D11\05. Shader\Sampler State</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_BlendState.cpp">
+      <Filter>Engine\02. D3D11\07. Output Merger\BlendState</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_Camera.cpp">
+      <Filter>Engine\02. D3D11\08. Matrix Transformation\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry_Generator.cpp">
+      <Filter>Engine\02. D3D11\03. Vertex\Geometry\Geometry Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11_Pipeline.cpp">
+      <Filter>Engine\02. D3D11\09. Pipeline</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D3D11_VertexBuffer.inl">
+      <Filter>Engine\02. D3D11\04. Input Assembler\Vertex Buffer</Filter>
+    </None>
+    <None Include="D3D11_ConstantBuffer.inl">
+      <Filter>Engine\02. D3D11\05. Shader\Constant Buffer</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\_Asset\Shader\Color.hlsl">
+      <Filter>Engine\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\_Asset\Shader\Texture.hlsl">
+      <Filter>Engine\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
